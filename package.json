@@ -1,0 +1,28 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDepndencies": {
+    "@types/react": "18.0.8",
+    "typescript": "4.6.4",
+    "@types/node": "17.0.31"
+  },
+  "license": "MIT",
+  "keywords": ["next"],
+  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works.",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.8",
+    "typescript": "^4.6.4"
+  }
+}
